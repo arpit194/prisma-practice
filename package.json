@@ -2,8 +2,9 @@
   "name": "prisma-practice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "script.ts",
   "scripts": {
+    "devStart": "nodemon script.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,5 +15,8 @@
     "prisma": "^5.13.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.13.0"
   }
 }
